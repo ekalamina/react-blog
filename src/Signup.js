@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 
 class Signup extends React.Component {
     constructor(props) {
@@ -36,7 +37,7 @@ class Signup extends React.Component {
     render() {
         return (
             <form onSubmit={this.onSubmit}>
-                <h1 id="title">Sign Up</h1>
+                <div id="title">Sign Up</div>
                 <div className="block"><label className="field">
                     Login<input type="text" className="input-field" name="login" value={this.state.login}
                                 onChange={this.onLoginChange} required/>
@@ -61,5 +62,9 @@ class Signup extends React.Component {
         )
     }
 }
+
+ReactDOM.render(
+    <Signup/>
+    , document.getElementById('root'));
 
 export default Signup

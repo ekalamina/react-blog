@@ -1,0 +1,73 @@
+.Signin{
+    background-color: blue;
+    background-size:75em 40em;
+}
+
+#title{
+    text-align:center;
+    font-family: Verdana, sans-serif;
+    font-style:normal;
+    color: rgba(80, 84, 148, 0.87);
+    font-size:3em;
+    padding: 0.8em;
+}
+
+.field{
+    color: rgba(80, 84, 148, 0.87);
+    font-family: Verdana, sans-serif;
+    font-style:normal;
+    font-size:1.5em;
+}
+
+form{
+    border: none;
+    border-radius: 1em;
+    background: linear-gradient(90deg, #b1ee6e, #d1d2cd);
+    width:35em;
+    height:35em;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.block{
+    border-radius: 1em;
+    border:none;
+    padding:1.5em;
+    margin-bottom: 0.7em;
+    margin-left:auto;
+    margin-right: auto;
+    width: 30em;
+    height:1.8em;
+    background: rgb(163, 164, 159);
+}
+
+input{
+    background: linear-gradient(45deg, #b1ee6e, #a3a49f);
+    border: none;
+    border-radius: 1em;
+    height: 1.7em;
+    width: 19em;
+    padding: 0.1em;
+    float:right;
+    color: rgba(80, 84, 148, 0.87);
+    font-family: Verdana, sans-serif;
+    font-style:normal;
+    font-size:0.7em;
+}
+
+button{
+    font-family: Verdana, sans-serif;
+    font-style:normal;
+    font-size: 1.5em;
+    width:10em;
+    border-radius: 0.7em;
+    transition-duration: 0.3s;
+    background: #a3a49f;
+    color: rgba(80, 84, 148, 0.87);
+    padding: 0.5em;
+    border: none;
+    cursor: pointer;
+}
+#enter{
+    text-align:center;
+}
